@@ -3,8 +3,8 @@ cv:
   location: Belgrade, Serbia · Open to remote & relocation
   email: lineishchikov.cv@fastmail.com
   custom_connections:
-    - placeholder: http://calendly.com/lineishchikov
-      url: http://calendly.com/lineishchikov
+    - placeholder: https://calendly.com/lineishchikov
+      url: https://calendly.com/lineishchikov
       fontawesome_icon: calendar-days
   social_networks:
     - network: LinkedIn
