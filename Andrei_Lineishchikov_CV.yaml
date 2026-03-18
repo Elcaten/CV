@@ -1,8 +1,11 @@
 cv:
   name: Andrei Lineishchikov
-  location: Belgrade, Serbia
-  email: lineishchikov.cv@fastmail.es
-  website: http://calendly.com/lineishchikov
+  location: Belgrade, Serbia · Open to remote & relocation
+  email: lineishchikov.cv@fastmail.com
+  custom_connections:
+    - placeholder: http://calendly.com/lineishchikov
+      url: http://calendly.com/lineishchikov
+      fontawesome_icon: calendar-days
   social_networks:
     - network: LinkedIn
       username: lineishchikov
@@ -10,21 +13,21 @@ cv:
       username: elcaten
   sections:
     Summary:
-      - 8+ years of Software Engineering experience.
-      - "Multiple subject areas: SEO, healthcare, drone operations, telecom, real estate sales."
-      - Experience with both startup and corporate environments.
-      - Background in software architecture.
-
-    Languages:
-      - Full working efficiency in English
-      - Native Russian speaker
+      - Frontend engineer with 10+ years of experience across startups and large companies, working on products in SEO, healthcare, telecom, and real estate. Background in software architecture, passionate about performance optimisation and crafting interfaces that feel genuinely good to use. Based in Serbia, open to remote and relocation.
 
     Skills:
-      - TypeScript, JavaScript, HTML, CSS
-      - React, Next.js, Redux, React Query, Jest, Sentry
-      - Webpack, Rollup, Vite, Babel
-      - SQL databases, Firebase, Node.js, WebSockets, REST
-      - GCP, Linux, Docker, GitLab CI
+      - label: Languages
+        details: TypeScript, JavaScript, HTML, CSS
+      - label: Frontend Frameworks & Tools
+        details: React, Next.js, Redux, React Query, Jest, Sentry
+      - label: Build Tools
+        details: Webpack, Rollup, Vite, Babel
+      - label: Backend
+        details: REST, WebSockets, SQL databases, Firebase, Node.js
+      - label: Infrastructure
+        details: GCP, Linux, Docker, GitLab CI
+      - label: Language skills
+        details: Full working efficiency in English, Native Russian speaker
 
     Experience:
       - company: Semrush
@@ -36,7 +39,7 @@ cv:
           - Performed a series of A/B experiments to improve landing visit-to-purchase conversion by 40%.
           - Optimized CI pipeline to run builds and tests ~2.3x faster.
           - Evaluated legacy codebase and proposed a code-split plan to reduce support cost up to 2x.
-          - Developed AI-based feature UI, recognized in company-wide financial results report.
+          - Developed the UI for an AI-powered review generation feature, highlighted in the company-wide financial results report.
           - Bootstrapped the blog MVP in 2 weeks to attract new customers.
 
       - company: Arcadia
@@ -61,6 +64,7 @@ cv:
           - Overhauled a service desk application UI to reduce specialist response time up to 2x.
 
       - company: DevExpress
+        summary: .NET UI component libraries
         position: Intern
         start_date: 2014-12
         end_date: 2015-02
@@ -83,14 +87,14 @@ cv:
         end_date: 2016
 
     Personal projects:
-      - name: Expense Tracker App
+      - name: Expense Tracker Mobile App
+        summary: I built an unofficial mobile client for an existing expense tracker service to experiment with React Native.
         highlights:
-          - "TypeScript, React Native"
-          - "Code: https://github.com/Elcaten/zen-money-mobile"
-          - I built the app from scratch, had a lot of experimented with different technologies.
+          - TypeScript, React Native
+          - https://github.com/Elcaten/zen-money-mobile
 
       - name: Browser extension for autofilling email security codes
+        summary: I built a browser extension to automatically fill email security codes on login - a frustration I'd wanted to fix for years. Used it as an exercise in building with Cursor cloud agents, which made for a surprisingly fast and enjoyable workflow.
         highlights:
-          - "TypeScript, React"
-          - "Code: https://github.com/Elcaten/otp-buddy"
-          - "It was a nice experiment with code agents to solve the problem that bothered me for a while, but I never had a time to address it."
+          - TypeScript, React
+          - https://github.com/Elcaten/otp-buddy
