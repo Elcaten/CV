@@ -39,6 +39,23 @@ jobs:
             --output-folder dist
           rm -f dist/*.md dist/*.typ dist/*_*.png
 
+      - name: Add index.html redirect to PDF
+        run: |
+          cat << 'EOF' > dist/index.html
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="refresh" content="0; url=./Andrei_Lineishchikov_CV.pdf">
+            <title>Andrei Lineishchikov - CV</title>
+            <script>location.replace("./Andrei_Lineishchikov_CV.pdf");</script>
+          </head>
+          <body>
+            <p>Redirecting to <a href="./Andrei_Lineishchikov_CV.pdf">CV (PDF)</a>...</p>
+          </body>
+          </html>
+          EOF
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
@@ -57,4 +74,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-
