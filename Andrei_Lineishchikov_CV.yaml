@@ -91,10 +91,10 @@ cv:
         summary: I built an unofficial mobile client for an existing expense tracker service to experiment with React Native.
         highlights:
           - TypeScript, React Native
-          - https://github.com/Elcaten/zen-money-mobile
+          - "[https://github.com/Elcaten/zen-money-mobile](https://github.com/Elcaten/zen-money-mobile)"
 
       - name: Browser extension for autofilling email security codes
         summary: I built a browser extension to automatically fill email security codes on login - a frustration I'd wanted to fix for years. Used it as an exercise in building with Cursor cloud agents, which made for a surprisingly fast and enjoyable workflow.
         highlights:
           - TypeScript, React
-          - https://github.com/Elcaten/otp-buddy
+          - "[https://github.com/Elcaten/otp-buddy](https://github.com/Elcaten/otp-buddy)"
