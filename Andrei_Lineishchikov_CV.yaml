@@ -1,27 +1,96 @@
 cv:
-  name: John Doe
-  location: San Francisco, CA
-  email: john.doe@email.com
-  website: https://rendercv.com/
+  name: Andrei Lineishchikov
+  location: Belgrade, Serbia
+  email: lineishchikov.cv@fastmail.es
+  website: http://calendly.com/lineishchikov
   social_networks:
     - network: LinkedIn
-      username: rendercv
+      username: lineishchikov
     - network: GitHub
-      username: rendercv
+      username: elcaten
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-      - See the [documentation](https://docs.rendercv.com) for more details.
-    education:
-      - institution: Princeton University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2018-09
-        end_date: 2023-05
-        location: Princeton, NJ
-        summary:
+    Summary:
+      - 8+ years of Software Engineering experience.
+      - "Multiple subject areas: SEO, healthcare, drone operations, telecom, real estate sales."
+      - Experience with both startup and corporate environments.
+      - Background in software architecture.
+
+    Languages:
+      - Full working efficiency in English
+      - Native Russian speaker
+
+    Skills:
+      - TypeScript, JavaScript, HTML, CSS
+      - React, Next.js, Redux, React Query, Jest, Sentry
+      - Webpack, Rollup, Vite, Babel
+      - SQL databases, Firebase, Node.js, WebSockets, REST
+      - GCP, Linux, Docker, GitLab CI
+
+    Experience:
+      - company: Semrush
+        position: Frontend developer
+        start_date: 2021-11
+        end_date: 2026-02
+        summary: Major marketing and SEO SaaS with 1K+ employees and $320M+ ARR.
         highlights:
-          - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
-          - "Advisor: Prof. Sanjeev Arora"
-          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+          - Performed a series of A/B experiments to improve landing visit-to-purchase conversion by 40%.
+          - Optimized CI pipeline to run builds and tests ~2.3x faster.
+          - Evaluated legacy codebase and proposed a code-split plan to reduce support cost up to 2x.
+          - Developed AI-based feature UI, recognized in company-wide financial results report.
+          - Bootstrapped the blog MVP in 2 weeks to attract new customers.
+
+      - company: Arcadia
+        position: Fullstack developer
+        start_date: 2018-10
+        end_date: 2021-09
+        summary: Custom software developer.
+        highlights:
+          - Built a web app prototype and brought it to market to collect feedback.
+          - Designed and developed chat, video playback, and user management features.
+          - Built a map view with complex real-time overlays.
+          - Migrated from a backendless solution to a backendful one.
+
+      - company: Nikfort
+        position: Fullstack developer
+        start_date: 2015-11
+        end_date: 2018-10
+        summary: Real estate CRM and telecom service desk products.
+        highlights:
+          - Created a component library for the team, shortening development time.
+          - Designed a chatbot framework to engage customers; developed a web UI for it.
+          - Overhauled a service desk application UI to reduce specialist response time up to 2x.
+
+      - company: DevExpress
+        position: Intern
+        start_date: 2014-12
+        end_date: 2015-02
+        highlights:
+          - Developed a PostScript interpreter prototype.
+
+      - company: Volkswagen (Russian branch)
+        position: Intern, staff development department
+        start_date: 2014-04
+        end_date: 2014-12
+        highlights:
+          - Developed a spreadsheet-based MVP to plan personnel education, later expanded to the whole office division.
+
+    Education:
+      - institution: Bauman Moscow State Technical University
+        location: Russia
+        degree: MS
+        area: Software Architecture
+        start_date: 2010
+        end_date: 2016
+
+    Personal projects:
+      - name: Expense Tracker App
+        highlights:
+          - "TypeScript, React Native"
+          - "Code: https://github.com/Elcaten/zen-money-mobile"
+          - I built the app from scratch, had a lot of experimented with different technologies.
+
+      - name: Browser extension for autofilling email security codes
+        highlights:
+          - "TypeScript, React"
+          - "Code: https://github.com/Elcaten/otp-buddy"
+          - "It was a nice experiment with code agents to solve the problem that bothered me for a while, but I never had a time to address it."
