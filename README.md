@@ -1,4 +1,4 @@
 # Andrei Lineishchikov
 
-- [Resume (PDF)](https://elcaten.github.io/CV/Andrei_Lineishchikov_CV.pdf)
-- [Resume (HTML)](https://elcaten.github.io/CV/Andrei_Lineishchikov_CV.html)
+- [CV (PDF)](https://elcaten.github.io/CV/Andrei_Lineishchikov_CV.pdf)
+- [CV (HTML)](https://elcaten.github.io/CV/Andrei_Lineishchikov_CV.html)
