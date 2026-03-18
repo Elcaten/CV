@@ -2,7 +2,8 @@ name: Build and deploy resume
 
 on:
   push:
-    branches: [master]
+    # Repo default branch is `main`; keep `master` too just in case.
+    branches: [main, master]
   workflow_dispatch: {}
 
 permissions:
