@@ -27,6 +27,10 @@ jobs:
           mkdir -p dist
           docker run --rm \
             --user "$(id -u)":"$(id -g)" \
+            -e HOME=/tmp \
+            -e XDG_CACHE_HOME=/tmp/.cache \
+            -e XDG_CONFIG_HOME=/tmp/.config \
+            -e XDG_DATA_HOME=/tmp/.local/share \
             -v "$PWD":/work -w /work \
             ghcr.io/rendercv/rendercv \
             render Andrei_Lineishchikov_CV.yaml \
