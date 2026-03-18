@@ -1,19 +1,21 @@
 cv:
   name: Andrei Lineishchikov
-  location: Belgrade, Serbia · Open to remote & relocation
+  headline: Senior Frontend Engineer
+  location: Serbia · Open to remote & relocation
   email: lineishchikov.cv@fastmail.com
   custom_connections:
-    - placeholder: https://calendly.com/lineishchikov
+    - placeholder: Calendly
       url: https://calendly.com/lineishchikov
       fontawesome_icon: calendar-days
-  social_networks:
-    - network: LinkedIn
-      username: lineishchikov
-    - network: GitHub
-      username: elcaten
+    - placeholder: LinkedIn
+      url: https://www.linkedin.com/in/lineishchikov
+      fontawesome_icon: linkedin
+    - placeholder: GitHub
+      url: https://github.com/elcaten
+      fontawesome_icon: github
   sections:
     Summary:
-      - Frontend engineer with 10+ years of experience across startups and large companies, working on products in SEO, healthcare, telecom, and real estate. Background in software architecture, passionate about performance optimisation and crafting interfaces that feel genuinely good to use. Based in Serbia, open to remote and relocation.
+      - Senior Frontend Engineer with 10+ years of experience across startups and large companies, shipping products in SEO, healthcare, telecom, and real estate. Background in software architecture, with a focus on performance optimisation and crafting interfaces that feel polished, fast, and satisfying to use. Based in Serbia, open to remote and relocation.
 
     Skills:
       - label: Languages
@@ -36,11 +38,11 @@ cv:
         end_date: 2026-02
         summary: Major marketing and SEO SaaS with 1K+ employees and $320M+ ARR.
         highlights:
-          - Performed a series of A/B experiments to improve landing visit-to-purchase conversion by 40%.
-          - Optimized CI pipeline to run builds and tests ~2.3x faster.
-          - Evaluated legacy codebase and proposed a code-split plan to reduce support cost up to 2x.
-          - Developed the UI for an AI-powered review generation feature, highlighted in the company-wide financial results report.
-          - Bootstrapped the blog MVP in 2 weeks to attract new customers.
+          - Increased landing page conversion by 40% by leading a series of A/B tests on pricing and signup flows.
+          - Reduced CI build and test times from 16 minutes to ~7 minutes (~2.3x faster) by optimizing Webpack and Jest configuration.
+          - Developed the UI for key AI-powered review generation feature, which was recognized in the quarterly financial report for its business impact.
+          - Architected and implemented a code-splitting strategy for a legacy monolith, halving the time to ship a new landing page — from over a week to a few days.
+          - Built and launched a blog MVP using Next.js in just 2 weeks to support a new content marketing initiative, enabling the team to start attracting organic traffic immediately.
 
       - company: Arcadia
         position: Fullstack developer
@@ -48,10 +50,10 @@ cv:
         end_date: 2021-09
         summary: Custom software developer.
         highlights:
-          - Built a web app prototype and brought it to market to collect feedback.
-          - Designed and developed chat, video playback, and user management features.
-          - Built a map view with complex real-time overlays.
-          - Migrated from a backendless solution to a backendful one.
+          - Engineered a video playback module using HLS.js, serving as the core media experience of the platform.
+          - Engineered a real-time chat module using Firebase, enabling direct communication between users within the platform.
+          - Developed an interactive map view with Leaflet.js to display complex real-time data overlays, providing critical operational insights for users.
+          - Migrated the application's backend from Firebase to a custom Node.js API to improve scalability and reduce operational costs as the user base grew.
 
       - company: Nikfort
         position: Fullstack developer
@@ -59,24 +61,9 @@ cv:
         end_date: 2018-10
         summary: Real estate CRM and telecom service desk products.
         highlights:
-          - Created a component library for the team, shortening development time.
-          - Designed a chatbot framework to engage customers; developed a web UI for it.
-          - Overhauled a service desk application UI to reduce specialist response time up to 2x.
-
-      - company: DevExpress
-        summary: .NET UI component libraries
-        position: Intern
-        start_date: 2014-12
-        end_date: 2015-02
-        highlights:
-          - Developed a PostScript interpreter prototype.
-
-      - company: Volkswagen (Russian branch)
-        position: Intern, staff development department
-        start_date: 2014-04
-        end_date: 2014-12
-        highlights:
-          - Developed a spreadsheet-based MVP to plan personnel education, later expanded to the whole office division.
+          - Built a shared Angular component library, which standardized UI across 3 products and accelerated new feature development for a team of 6 developers.
+          - Designed and built a customer engagement chatbot framework and web-based admin UI for non-technical staff.
+          - Redesigned a legacy service desk UI, simplifying core workflows and cutting average specialist response time in half.
 
     Education:
       - institution: Bauman Moscow State Technical University
@@ -87,14 +74,8 @@ cv:
         end_date: 2016
 
     Personal projects:
-      - name: Expense Tracker Mobile App
-        summary: I built an unofficial mobile client for an existing expense tracker service to experiment with React Native.
-        highlights:
-          - TypeScript, React Native
-          - "[https://github.com/Elcaten/zen-money-mobile](https://github.com/Elcaten/zen-money-mobile)"
+      - name: Expense Tracker Mobile App · [GitHub](https://github.com/Elcaten/zen-money-mobile)
+        summary: Built an unofficial mobile client for an existing expense tracker service to explore React Native.
 
-      - name: Browser extension for autofilling email security codes
-        summary: I built a browser extension to automatically fill email security codes on login - a frustration I'd wanted to fix for years. Used it as an exercise in building with Cursor cloud agents, which made for a surprisingly fast and enjoyable workflow.
-        highlights:
-          - TypeScript, React
-          - "[https://github.com/Elcaten/otp-buddy](https://github.com/Elcaten/otp-buddy)"
+      - name: Browser extension for autofilling email security codes · [GitHub](https://github.com/Elcaten/otp-buddy)
+        summary: Built a browser extension to automatically fill email security codes on login - a frustration I'd wanted to fix for years. Used it as an exercise in building with Cursor cloud agents, which made for a surprisingly fast and enjoyable workflow.
