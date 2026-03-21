@@ -38,11 +38,11 @@ cv:
         end_date: 2026-02
         summary: Major marketing and SEO SaaS with 1K+ employees and $320M+ ARR.
         highlights:
-          - Increased landing page conversion by 40% by leading a series of A/B tests on pricing and signup flows.
+          - Increased landing page conversion by 40% (from 1.2% to 1.7%) by leading a series of A/B tests on pricing and signup flows.
           - Reduced CI build and test times from 16 minutes to ~7 minutes (~2.3x faster) by optimizing Webpack and Jest configuration.
-          - Developed the UI for key AI-powered review generation feature, which was recognized in the quarterly financial report for its business impact.
-          - Architected and implemented a code-splitting strategy for a legacy monolith, halving the time to ship a new landing page — from over a week to a few days.
-          - Built and launched a blog MVP using Next.js in just 2 weeks to support a new content marketing initiative, enabling the team to start attracting organic traffic immediately.
+          - Developed the UI for an AI-powered review generation feature that became the most engaged feature of the year, recognized in the quarterly financial report for its business impact.
+          - Reduced the time to ship a new landing page from ~1.5 weeks to a ~3 days by architecting and implementing a code-splitting strategy for a legacy monolith.
+          - Launched a blog MVP using Next.js in just 2 weeks to support a new content marketing initiative, enabling the team to start attracting organic traffic immediately.
 
       - company: Arcadia
         position: Fullstack developer
@@ -75,7 +75,7 @@ cv:
 
     Personal projects:
       - name: Expense Tracker Mobile App · [GitHub](https://github.com/Elcaten/zen-money-mobile)
-        summary: Built an unofficial mobile client for an existing expense tracker service to explore React Native.
+        summary: Unofficial mobile client for an existing expense tracker service to explore React Native.
 
       - name: Browser extension for autofilling email security codes · [GitHub](https://github.com/Elcaten/otp-buddy)
-        summary: Built a browser extension to automatically fill email security codes on login - a frustration I'd wanted to fix for years. Used it as an exercise in building with Cursor cloud agents, which made for a surprisingly fast and enjoyable workflow.
+        summary: Browser extension to automatically fill email security codes on login - a frustration I'd wanted to fix for years. Used it as an exercise in building with Cursor cloud agents, which made for a surprisingly fast and enjoyable workflow.
